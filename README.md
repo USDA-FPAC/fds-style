@@ -1,4 +1,4 @@
-# FDS Style - a CSS Framework implementation of the FPAC Design System
+# FDS Style - CSS Framework for the FPAC Design System
 
 USDA FPAC's **Visual Language** and **HTML/CSS Framework**, as documented by the [FPAC Design System](http://usda-fpac.github.io/fpac-design-system/).
 
