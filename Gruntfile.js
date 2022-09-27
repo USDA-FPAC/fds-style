@@ -233,7 +233,7 @@ module.exports = function (grunt) {
     // Uglify (minimize) JS
     uglify: {
       options: {
-        banner: '/*! FDS Style v<%= pkg.version %> | http://usda-fds.github.io/fds-design-system/ */\n\n'
+        banner: '/*! FDS Style v<%= pkg.version %> | http://usda-fpac.github.io/fpac-design-system/ */\n\n'
       },
       build: {
         src: 'dist/js/<%= pkg.name %>-docs.js',
@@ -275,7 +275,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:USDA-FDS/fds-style.git',
+          remote: 'git@github.com:USDA-FPAC/fds-style.git',
           branch: 'gh-pages'
         }
       },
@@ -292,7 +292,7 @@ module.exports = function (grunt) {
       taskName: {
         options: {
           position: 'top',
-          banner: '/*! FDS Style v<%= pkg.version %> | http://usda-fds.github.io/fds-design-system/ */\n\n',
+          banner: '/*! FDS Style v<%= pkg.version %> | http://usda-fpac.github.io/fpac-design-system/ */\n\n',
           linebreak: true
         },
         files: {
