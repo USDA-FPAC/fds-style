@@ -1,11 +1,11 @@
 # FDS Style - a CSS Framework implementation of the FPAC Design System
 
-USDA FPAC's **Visual Language** and **HTML/CSS Framework**, as documented by the [FPAC Design System](http://usda-fds.github.io/fds-design-system/).
+USDA FPAC's **Visual Language** and **HTML/CSS Framework**, as documented by the [FPAC Design System](http://usda-fpac.github.io/fds-design-system/).
 
 The Design System comprises of two core repositories:
 
-1. **[fds-design-system](https://github.com/USDA-FDS/fds-style/)**: Source code for the [Design System web site](http://usda-fds.github.io/fds-design-system), documenting the FDS Style and accompanying guidelines.
-1. **[fds-style](https://github.com/USDA-FDS/fds-style/)**: Style assets (HTML, CSS, Images) available for download or install, as documented by the [Design System web site](http://usda-fds.github.io/fds-design-system).
+1. **[fds-design-system](https://github.com/USDA-FPAC/fds-style/)**: Source code for the [Design System web site](http://usda-fpac.github.io/fds-design-system), documenting the FDS Style and accompanying guidelines.
+1. **[fds-style](https://github.com/USDA-FPAC/fds-style/)**: Style assets (HTML, CSS, Images) available for download or install, as documented by the [Design System web site](http://usda-fpac.github.io/fds-design-system).
 
 ## Background
 
@@ -15,7 +15,7 @@ It was created and maintained within FPAC's ISSDOB/FBCSS division, and was initi
 
 ## Recent updates
 
-Information about the most recent release can always be found in the [release history](https://github.com/USDA-FDS/fds-style/releases). We include details about significant updates and any backwards incompatible changes along with a list of all changes.
+Information about the most recent release can always be found in the [release history](https://github.com/USDA-FPAC/fds-style/releases). We include details about significant updates and any backwards incompatible changes along with a list of all changes.
 
 ## Using fds-style assets
 
@@ -73,16 +73,16 @@ Lastly, refer to [Using the Boilerplate](#using-the-boilerplate) for basic guida
 
 If you don't have Node or the ability to incorporate source files into a build process (Grunt, Gulp, Webpack, etc), follow these steps to manually use the FDS Style.
 
-Download the latest assets: **https://github.com/usda-fds/fds-style/releases/download/2.7.7/fds-style-2.7.7.zip**
+Download the latest assets: **https://github.com/USDA-FPAC/fds-style/releases/download/3.0.0/fds-style-3.0.0.zip**
 
 #### 1. Visual Index
 
-`index.html` is a Visual Index of this CSS Framework's Visual Language, including basic HTML elements expressed in that style. Viewable at http://usda-fds.github.io/fds-style/index.html.
+`index.html` is a Visual Index of this CSS Framework's Visual Language, including basic HTML elements expressed in that style. Viewable at http://usda-fpac.github.io/fds-style/index.html.
 
 #### 2. Boilerplate
 
 `boilerplate.html` provides a non-designed starting point. It serves as general guidance for the HTML structure most typically required of an FPAC digital product. Viewable at
-http://usda-fds.github.io/fds-style/boilerplate.html.
+http://usda-fpac.github.io/fds-style/boilerplate.html.
 
 #### 3. Manually adding to your project
 
@@ -107,9 +107,9 @@ Refer to [Using the Boilerplate](#using-the-boilerplate) for further steps.
 
 ## Using the Boilerplate
 
-http://usda-fds.github.io/fds-style/boilerplate.html
+http://usda-fpac.github.io/fds-style/boilerplate.html
 
-Reference this basic list for the general requirements for your typical HTML structure. Reviewing this list is perhaps best done while viewing its [HTML source](https://github.com/USDA-FDS/fds-style/blob/master/src/boilerplate.html).
+Reference this basic list for the general requirements for your typical HTML structure. Reviewing this list is perhaps best done while viewing its [HTML source](https://github.com/USDA-FPAC/fds-style/blob/main/src/boilerplate.html).
 
 1. HTML5 doctype: `<!DOCTYPE html>`.
 1. Wrap `<html>` start element in IE conditional comment.
@@ -125,7 +125,7 @@ Reference this basic list for the general requirements for your typical HTML str
 
 For complete instructions on how to contribute code, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-If you have questions or concerns about our contributing workflow, please contact us by [filing a GitHub issue](https://github.com/usda=fds/fds-style/issues).
+If you have questions or concerns about our contributing workflow, please contact us by [filing a GitHub issue](https://github.com/USDA-FPAC/fds-style/issues).
 
 ## Reuse of open-source style guides
 

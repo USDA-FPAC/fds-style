@@ -6,7 +6,7 @@
   "license": "SEE LICENSE in LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usda-fds/fds-style.git"
+    "url": "git+https://github.com/USDA-FPAC/fds-style.git"
   },
   "author": "USDA FPAC - Farm Production and Conservation, ISSDOB/FBCSS",
   "contributors": [
@@ -16,7 +16,7 @@
     "Brian Mills (https://www.linkedin.com/in/brianmills)"
   ],
   "bugs": {
-    "url": "https://github.com/USDA-FDS/fds-style/issues"
+    "url": "https://github.com/USDA-FPAC/fds-style/issues"
   },
   "scripts": {
     "build": "grunt build",
