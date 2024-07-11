@@ -10,20 +10,21 @@
   },
   "author": "USDA FPAC - Farm Production and Conservation, ISSDOB/FBCSS",
   "contributors": [
+    "Adi Rosenblum <arosenblum@keyholesoftware.com (https://github.com/arosenblum)",
     "Casey Hill <bignamehere@gmail.com> (https://github.com/bignamehere)",
-    "Jamie Thompson <jamieraethompson@gmail.com> (https://github.com/whatnextjamie)",
-    "Francis Rupert <France.Rupert@gmail.com> (https://github.com/francisrupert)",
-    "Brian Mills (https://www.linkedin.com/in/brianmills)"
+    "Francis Rupert <France.Rupert@gmail.com> (https://github.com/francisrupert)"
   ],
   "bugs": {
     "url": "https://github.com/USDA-FPAC/fds-style/issues"
   },
   "scripts": {
-    "build": "grunt build",
+    "buildNpm": "grunt build-dist && copy package.json dist && cd dist && npm pack",
+    "publish": "buildNpm && cd dist && npm publish --access public",
+    "build": "grunt build-dist",
+    "compress": "grunt compress",
+    "deploy": "grunt deploy-dist",
     "start": "grunt",
-    "deploy": "grunt deploy",
-    "test": "grunt test",
-    "compress": "grunt compress"
+    "test": "grunt test"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.1",
@@ -45,7 +46,6 @@
     "grunt-prettify": "^0.4.0",
     "grunt-sass": "^3.1.0",
     "grunt-scss-lint": "^0.5.0",
-   
     "load-grunt-tasks": "^3.5.2",
     "pixrem": "^3.0.2",
     "sass": "^1.54.5",
@@ -55,5 +55,11 @@
     "jquery": "^3.3.1",
     "politespace": "^0.1.7",
     "uswds": "~1.6.12"
-  }
+  },
+  "files": [
+    "css/**",
+    "fonts/**",
+    "img/**",
+    "js/vendor/fds-date-picker.js"
+  ]
 }
