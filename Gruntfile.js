@@ -124,6 +124,13 @@ module.exports = function (grunt) {
         dest: 'dist/js/vendor'
       },
 
+      readme: {
+        expand: true,
+        src: 'README.md',
+        cwd: '',
+        dest: 'dist'
+      }
+
     },
 
     // Watches files for changes and run relevant tasks
@@ -333,6 +340,7 @@ module.exports = function (grunt) {
     'copy:fonts',
     'copy:img',
     'copy:js',
+    'copy:readme',
     'sass',
     'browserify',
     'uglify',

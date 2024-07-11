@@ -1,7 +1,7 @@
 {
   "name": "fds-style",
   "description": "Open Source CSS Framework of the USDA's FPAC Design System",
-  "version": "3.0.1-rc.0",
+  "version": "3.0.1-rc.1",
   "main": "index.js",
   "license": "SEE LICENSE in LICENSE.md",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "buildNpm": "grunt build-dist && copy package.json dist && cd dist && npm pack",
-    "publish": "buildNpm && cd dist && npm publish --access public",
+    "doPublish": "npm run buildNpm && cd dist && npm publish --access public",
     "build": "grunt build-dist",
     "compress": "grunt compress",
     "deploy": "grunt deploy-dist",
@@ -60,6 +60,7 @@
     "css/**",
     "fonts/**",
     "img/**",
-    "js/vendor/fds-date-picker.js"
+    "js/vendor/fds-date-picker.js",
+    "README.md"
   ]
 }
