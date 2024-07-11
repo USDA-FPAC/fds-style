@@ -1,0 +1,68 @@
+.fds-card-group{
+  list-style-type:none;
+  display:flex;
+  grid-column-gap:$size-medium;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 0;
+  gap: $size-medium;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+
+  
+
+}
+
+.fds-card_container{
+    border-style:solid;
+    border-color:$form-outline-color;
+    border-width:1px;
+    display:flex;
+    flex-direction:column;
+
+    @media (min-width:1920px) {
+      max-width: 12%;
+    }
+   
+    @media (min-width:1000px) and (max-width:1920px) {
+      max-width: 22.5%;flex-grow: calc(1);
+    }
+
+    @media (min-width:500px) and (max-width:1000px) {
+      max-width: 44%;
+
+    }
+    @media (max-width:500px) {
+      max-width: 100%;
+
+    }
+    
+   
+    }
+  .fds-card_img, .fds-card_header, .fds-card_body, .fds-card_footer{}
+  
+  .fds-card_img{display: block;
+      height: 100%;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;}
+  
+  .fds-card_body{
+    flex: 1 1 0%;
+    padding: math.div($size-medium, 3) $size-medium;
+    flex-basis: auto;
+  }
+  .fds-card_header{padding:$size-default $size-medium math.div($size-default, 3);}
+  
+  .fds-card_footer{padding:math.div($size-default, 3) $size-medium $size-medium;}
+  
+
+  .fds-card__body>:only-child, .fds-card__header>:only-child {
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+  }
+
+
+  

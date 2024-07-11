@@ -1,13 +1,5 @@
-body {
-    margin: 0;
-  }
-  
-  a{
-    cursor:pointer;
-  }
-  
-  #editor {
-    /*box-shadow: 0 0 2px #CCC;*/
+ .fds-editor {
+    background-color:$color-white ;
     border:1px solid $form-outline-color;
     min-height: 150px;
     overflow: auto;
@@ -17,32 +9,27 @@ body {
     outline: none;
   }
   
-  .toolbar {
-    /*text-align: center;*/
-    background-color:#c8c7c6;
-    border: 1px solid #AAA;
+  .fds-toolbar {
+    background-color:$color-white;
+    border-width:1px 1px 0;
+  border-style: solid;
+  border-color: $form-outline-color;
   }
   
-  .toolbar a,
+  .fds-toolbar a,
   .fore-wrapper,
   .back-wrapper {
-    /*border: 1px solid #AAA;*/
-    /*background: #FFF;*/
-    font-family: 'Candal';
     border-radius: 0px;
     color: black;
     padding: 3px 5px 0;
-    /*width: 1.5em;*/
-    /*margin: -2px;*/
     margin-top: 5px;
     display: inline-block;
     text-decoration: none;
-    /*box-shadow: 0px 1px 0px #CCC;*/
   }
   
-  .toolbar a:hover, .fore-wrapper:hover, .back-wrapper:hover {
-    background: #f2f2f2;
-    border-color: #8c8c8c;
+  .fds-toolbar a:hover, .fore-wrapper:hover, .back-wrapper:hover {
+    background: $color-fds-tertiary-100;
+    border-color: $form-outline-color;
   }
   /*
   a[data-command='redo'],a[data-command='strikeThrough'],a[data-command='justifyFull'],a[data-command='insertOrderedList'],a[data-command='outdent'],a[data-command='p'],a[data-command='superscript']{
@@ -56,7 +43,6 @@ body {
   
   a.palette-item {
     height: 1em;
-    border-radius: 3px;
     margin: 2px 1px;
     width: 1em;
   }
@@ -79,8 +65,8 @@ body {
     position: absolute;
     padding: 3px;
     width: 10em;
-    background: #FFF;
-    border: 1px solid #DDD;
+    background: $color-white;
+    border: 1px solid $form-outline-color;
     box-shadow: 0 0 5px #CCC;
     height: 4.4em;
   }
@@ -97,6 +83,6 @@ body {
   
   .fore-palette a,
   .back-palette a {
-    background: #FFF;
+    background: $color-white;
     margin-bottom: 2px;
   }
