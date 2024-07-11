@@ -18,7 +18,7 @@
     "url": "https://github.com/USDA-FPAC/fds-style/issues"
   },
   "scripts": {
-    "buildNpm": "grunt build-dist && copy package.json dist && cd dist && npm pack",
+    "buildNpm": "grunt build-dist && cp package.json dist && cd dist && npm pack",
     "doPublish": "npm run buildNpm && cd dist && npm publish --access public",
     "build": "grunt build-dist",
     "compress": "grunt compress",
