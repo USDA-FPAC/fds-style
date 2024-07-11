@@ -1,7 +1,7 @@
 {
   "name": "fds-style",
   "description": "Open Source CSS Framework of the USDA's FPAC Design System",
-  "version": "3.0.0",
+  "version": "3.0.1-rc.0",
   "main": "index.js",
   "license": "SEE LICENSE in LICENSE.md",
   "repository": {
@@ -45,7 +45,7 @@
     "grunt-prettify": "^0.4.0",
     "grunt-sass": "^3.1.0",
     "grunt-scss-lint": "^0.5.0",
-    "iltorb": "^2.4.5",
+   
     "load-grunt-tasks": "^3.5.2",
     "pixrem": "^3.0.2",
     "sass": "^1.54.5",
