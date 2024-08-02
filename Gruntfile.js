@@ -124,6 +124,13 @@ module.exports = function (grunt) {
         dest: 'dist/js/vendor'
       },
 
+      readme: {
+        expand: true,
+        src: 'README.md',
+        cwd: '',
+        dest: 'dist'
+      }
+
     },
 
     // Watches files for changes and run relevant tasks
@@ -321,9 +328,9 @@ module.exports = function (grunt) {
   });
 
   // Register Tasks
-  grunt.registerTask('default', ['build', 'browserSync', 'watch']);
-  grunt.registerTask('build-and-lint', ['build', 'lint', 'browserSync', 'watch']);
-  grunt.registerTask('build', [
+  grunt.registerTask('default', ['build-dist', 'browserSync', 'watch']);
+  grunt.registerTask('build-and-lint', ['build-dist', 'lint', 'browserSync', 'watch']);
+  grunt.registerTask('build-dist', [
     'clean:dist',
     'copy:datepicker_bk',
     //'copy:uswds_stylesheets', // this will add decrecated SASS if copied
@@ -333,6 +340,7 @@ module.exports = function (grunt) {
     'copy:fonts',
     'copy:img',
     'copy:js',
+    'copy:readme',
     'sass',
     'browserify',
     'uglify',
@@ -342,7 +350,6 @@ module.exports = function (grunt) {
     'clean:datepicker_cl',
   ]);
   grunt.registerTask('lint', 'scsslint');
-  grunt.registerTask('deploy', ['build', 'buildcontrol:pages']);
+  grunt.registerTask('deploy-dist', ['build-dist', 'buildcontrol:pages']);
   grunt.registerTask('test', 'default', function () { grunt.log.writeln('Test that the app runs');});
-
 };
