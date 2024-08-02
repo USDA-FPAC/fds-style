@@ -75,7 +75,7 @@ Lastly, refer to [Using the Boilerplate](#using-the-boilerplate) for basic guida
 
 If you don't have Node or the ability to incorporate source files into a build process (Grunt, Gulp, Webpack, etc), follow these steps to manually use the FDS Style.
 
-Download the latest assets: **https://github.com/USDA-FPAC/fds-style/releases/download/3.0.0/fds-style-3.0.0.zip**
+Download the latest assets: **https://github.com/USDA-FPAC/fds-style/releases/download/3.0.1/fds-style-3.0.1.zip**
 
 #### 1. Visual Index
 
