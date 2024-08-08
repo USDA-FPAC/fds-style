@@ -282,7 +282,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:USDA-FPAC/fds-style.git',
+          remote: 'samdurphy@github.com:USDA-FPAC/fds-style.git',
           branch: 'gh-pages'
         }
       },
