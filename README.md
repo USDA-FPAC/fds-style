@@ -1,19 +1,17 @@
-# FDS Style - a CSS Framework implementation of the FPAC Design System
+# FDS Style
 
-This digital resouce is made available across the Department and to other Federal agencies. It supports the requirements of OMB Memorandum M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software". This policy requires agencies to develop plans to release at least 20 percent of new custom-developed source code as Open Source Software (OSS) when commissioning new custom software.
+The Design System is comprised of two core repositories:
 
-USDA FPAC's **Visual Language** and **HTML/CSS Framework**, as documented by the [FPAC Design System](https://github.com/USDA-FPAC/fpac-design-system/).
-
-The Design System comprises of two core repositories:
-
-1. **[fds-design-system](https://github.com/USDA-FPAC/fds-style/)**: Source code for the [Design System web site](http://usda-fpac.github.io/fpac-design-system/), documenting the FDS Style and accompanying guidelines.
-1. **[fds-style](https://github.com/USDA-FPAC/fds-style/)**: Style assets (HTML, CSS, Images) available for download or install, as documented by the [Design System web site](http://usda-fpac.github.io/fpac-design-system/).
+1. **[FPAC Design System](https://github.com/USDA-FPAC/fpac-design-system/)**: This is the source code for the design system which documents FDS Style and its accompanying guidelines.
+2. **[FDS Style](https://github.com/USDA-FPAC/fds-style/)**: FDS Style is a CSS Framework implementation of the FPAC Design System that contains the style assets (HTML, CSS, Images) available for download or installation as documented in the FPAC Design System.
 
 ## Background
 
+This digital resouce is made available across the Department and to other Federal agencies. It supports the requirements of OMB Memorandum M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software". This policy requires agencies to develop plans to release at least 20 percent of new custom-developed source code as Open Source Software (OSS) when commissioning new custom software.
+
 The components and style guide of the Design System follow industry-standard web accessibility guidelines and use the best practices of existing style libraries and modern web design. They are designed for use by FPAC product teams who want to create beautiful, easy-to-use, online experiences that are consistent to the FDS Style.
 
-It was created and maintained within FPAC's ISSDOB/FBCSS division, and was initially influenced by the `v1.x.x` version [U.S. Web Design System](https://designsystem.digital.gov/) created and maintained by the wonderful folks at [18F](https://en.wikipedia.org/wiki/18F#Mass_firings_and_elimination).
+The FPAC Design System was created and is maintained within FPAC's ISSDOB/FBCSS division. It was initially influenced by the `v1.x.x` version of the [U.S. Web Design System](https://designsystem.digital.gov/). It has superceeded the FSA Design System.
 
 ## Recent updates
 
