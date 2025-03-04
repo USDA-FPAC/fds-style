@@ -2,18 +2,18 @@
 
 This digital resouce is made available across the Department and to other Federal agencies. It supports the requirements of OMB Memorandum M-16-21, “Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software". This policy requires agencies to develop plans to release at least 20 percent of new custom-developed source code as Open Source Software (OSS) when commissioning new custom software.
 
-USDA FPAC's **Visual Language** and **HTML/CSS Framework**, as documented by the [FPAC Design System](http://usda-fpac.github.io/fds-design-system/).
+USDA FPAC's **Visual Language** and **HTML/CSS Framework**, as documented by the [FPAC Design System](https://github.com/USDA-FPAC/fpac-design-system/).
 
 The Design System comprises of two core repositories:
 
-1. **[fds-design-system](https://github.com/USDA-FPAC/fds-style/)**: Source code for the [Design System web site](http://usda-fpac.github.io/fds-design-system), documenting the FDS Style and accompanying guidelines.
-1. **[fds-style](https://github.com/USDA-FPAC/fds-style/)**: Style assets (HTML, CSS, Images) available for download or install, as documented by the [Design System web site](http://usda-fpac.github.io/fds-design-system).
+1. **[fds-design-system](https://github.com/USDA-FPAC/fds-style/)**: Source code for the [Design System web site](http://usda-fpac.github.io/fpac-design-system/), documenting the FDS Style and accompanying guidelines.
+1. **[fds-style](https://github.com/USDA-FPAC/fds-style/)**: Style assets (HTML, CSS, Images) available for download or install, as documented by the [Design System web site](http://usda-fpac.github.io/fpac-design-system/).
 
 ## Background
 
 The components and style guide of the Design System follow industry-standard web accessibility guidelines and use the best practices of existing style libraries and modern web design. They are designed for use by FPAC product teams who want to create beautiful, easy-to-use, online experiences that are consistent to the FDS Style.
 
-It was created and maintained within FPAC's ISSDOB/FBCSS division, and was initially influenced by the `v1.x.x` version [U.S. Web Design System](https://designsystem.digital.gov/) created and maintained by the wonderful folks at [18F](https://18f.gsa.gov/).
+It was created and maintained within FPAC's ISSDOB/FBCSS division, and was initially influenced by the `v1.x.x` version [U.S. Web Design System](https://designsystem.digital.gov/) created and maintained by the wonderful folks at [18F](https://en.wikipedia.org/wiki/18F#Mass_firings_and_elimination).
 
 ## Recent updates
 
