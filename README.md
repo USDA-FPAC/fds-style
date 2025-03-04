@@ -19,7 +19,7 @@ The FPAC Design System supersedes the FSA Design System. **Please note that both
 
 Information about the most recent release can always be found in the [release history](https://github.com/USDA-FPAC/fds-style/releases). We include details about significant updates and any backwards incompatible changes along with a list of all changes.
 
-## Using fds-style assets
+# Using fds-style assets
 
 Two options are available for usage of fds-style HTML, CSS, Images, and Web Fonts:
 
